@@ -1,0 +1,12 @@
+{% extends "users/basic.html" %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="card shadow p-5 mx-auto" style="max-width: 500px;">
+        <i class="fas fa-times-circle text-danger" style="font-size: 5rem;"></i>
+        <h2 class="mt-4">Payment Failed!</h2>
+        <p class="text-muted">Something went wrong with your payment or the signature verification failed. Please try booking again.</p>
+        <a href="{% url 'movie_list' %}" class="btn btn-primary mt-3">Browse Movies</a>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary mt-3">Back to Home</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "users/basic.html" %}
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="card shadow p-5 mx-auto" style="max-width: 500px;">
+        <i class="fas fa-check-circle text-success" style="font-size: 5rem;"></i>
+        <h2 class="mt-4">Payment Successful!</h2>
+        <p class="text-muted">Your booking has been confirmed. A confirmation email is being sent to your registered email address.</p>
+        <a href="{% url 'profile' %}" class="btn btn-primary mt-3">View My Bookings</a>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary mt-3">Back to Home</a>
+    </div>
+</div>
+{% endblock %}

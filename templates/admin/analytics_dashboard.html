@@ -1,0 +1,71 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block extrastyle %}
+{{ block.super }}
+<style>
+    .analytics-cards { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; }
+    .card { background: #fff; border: 1px solid #ddd; padding: 20px; border-radius: 8px; flex: 1; min-width: 200px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .card h3 { margin-top: 0; color: #666; font-size: 14px; text-transform: uppercase; }
+    .card .value { font-size: 28px; font-weight: bold; color: #333; margin: 10px 0; }
+    .table-container { margin-bottom: 30px; background: #fff; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 12px; text-align: left; border-bottom: 1px solid #eee; }
+    th { background: #f9f9f9; font-weight: bold; }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Advanced Analytics Dashboard</h1>
+
+<div class="analytics-cards">
+    <div class="card">
+        <h3>Total Revenue</h3>
+        <div class="value">₹{{ total_revenue|floatformat:2 }}</div>
+    </div>
+    <div class="card">
+        <h3>Cancellation / Failure Rate</h3>
+        <div class="value">{{ cancellation_rate }}%</div>
+    </div>
+</div>
+
+<div class="table-container">
+    <h2>Most Popular Movies (By Bookings)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Movie Name</th>
+                <th>Total Bookings</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for movie in popular_movies %}
+            <tr>
+                <td>{{ movie.name }}</td>
+                <td>{{ movie.booking_count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="table-container">
+    <h2>Busiest Theaters (By Occupancy Rate)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Theater Name</th>
+                <th>Occupancy Rate</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for theater in busiest_theaters %}
+            <tr>
+                <td>{{ theater.name }}</td>
+                <td>{{ theater.occupancy_rate|floatformat:2 }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

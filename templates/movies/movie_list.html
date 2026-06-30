@@ -1,0 +1,165 @@
+{% extends "users/basic.html" %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="text-center mb-5">Movies</h1>
+
+    <div class="row mb-4">
+        <!-- Sidebar for Filters -->
+        <div class="col-md-3">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Filters</h5>
+                </div>
+                <div class="card-body">
+                    <form method="GET" action="{% url 'movie_list' %}" id="filterForm">
+                        <div class="form-group mb-3">
+                            <label for="search">Search</label>
+                            <input type="text" class="form-control" name="search" id="search" placeholder="Search movies..." value="{{ request.GET.search|default_if_none:'' }}">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="sort">Sort By</label>
+                            <select class="form-control" name="sort" id="sort" onchange="this.form.submit()">
+                                <option value="">Default</option>
+                                <option value="name" {% if sort_by == 'name' %}selected{% endif %}>Name (A-Z)</option>
+                                <option value="rating" {% if sort_by == 'rating' %}selected{% endif %}>Rating (High to Low)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Genres</label>
+                            {% for genre in genres_with_counts %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="genres" value="{{ genre.id }}" id="genre{{ genre.id }}" 
+                                    {% if genre.id|stringformat:"s" in request.GET.genres or genre.id in request.GET.genres %}checked{% endif %}
+                                    onchange="this.form.submit()">
+                                <label class="form-check-label d-flex justify-content-between" for="genre{{ genre.id }}">
+                                    {{ genre.name }}
+                                    <span class="badge bg-secondary rounded-pill">{{ genre.movie_count }}</span>
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label>Languages</label>
+                            {% for lang in languages_with_counts %}
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" name="languages" value="{{ lang.id }}" id="lang{{ lang.id }}" 
+                                    {% if lang.id|stringformat:"s" in request.GET.languages or lang.id in request.GET.languages %}checked{% endif %}
+                                    onchange="this.form.submit()">
+                                <label class="form-check-label d-flex justify-content-between" for="lang{{ lang.id }}">
+                                    {{ lang.name }}
+                                    <span class="badge bg-secondary rounded-pill">{{ lang.movie_count }}</span>
+                                </label>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block d-none">Apply</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movie Grid -->
+        <div class="col-md-9">
+            <div class="row" id="movieList">
+                {% for movie in page_obj %}
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        {% if movie.image %}
+                        <img src="{{ movie.image.url }}" class="card-img-top" alt="{{ movie.name }}" style="height: 300px; object-fit: cover;">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{ movie.name }}</h5>
+                            <p class="card-text">
+                                <i class="fas fa-star text-warning"></i> {{ movie.rating }}
+                            </p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <i class="fas fa-users"></i> Cast: {{ movie.cast }}
+                                </small>
+                            </p>
+                        </div>
+                        <div class="card-footer bg-white border-top-0">
+                            <a href="{% url 'theater_list' movie.id %}" class="btn btn-outline-primary btn-block">
+                                View Theaters <i class="fas fa-chevron-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                {% empty %}
+                <div class="col-12 text-center">
+                    <p class="lead">No movies found matching your criteria.</p>
+                </div>
+                {% endfor %}
+            </div>
+
+            <!-- Pagination -->
+            {% if page_obj.has_other_pages %}
+            <nav aria-label="Page navigation" class="mt-4">
+                <ul class="pagination justify-content-center">
+                    {% if page_obj.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.previous_page_number }}">Previous</a>
+                    </li>
+                    {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">Previous</span>
+                    </li>
+                    {% endif %}
+
+                    {% for num in page_obj.paginator.page_range %}
+                        {% if page_obj.number == num %}
+                        <li class="page-item active"><span class="page-link">{{ num }}</span></li>
+                        {% else %}
+                        <li class="page-item"><a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ num }}">{{ num }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.next_page_number }}">Next</a>
+                    </li>
+                    {% else %}
+                    <li class="page-item disabled">
+                        <span class="page-link">Next</span>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+    .card {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+        // Add animation to cards on hover
+        $('.card').hover(
+            function() { $(this).addClass('shadow'); },
+            function() { $(this).removeClass('shadow'); }
+        );
+    });
+</script>
+{% endblock %}

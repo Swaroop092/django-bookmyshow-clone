@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .container { background-color: #ffffff; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; }
+        h1 { color: #d32f2f; }
+        .details { margin: 20px 0; border-top: 1px solid #ddd; padding-top: 20px; }
+        .footer { margin-top: 30px; font-size: 12px; color: #777; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Booking Confirmed!</h1>
+        <p>Hi {{ username }},</p>
+        <p>Your ticket has been successfully booked.</p>
+        
+        <div class="details">
+            <p><strong>Movie:</strong> {{ movie }}</p>
+            <p><strong>Theater:</strong> {{ theater }}</p>
+            <p><strong>Show Time:</strong> {{ time }}</p>
+            <p><strong>Seat Number(s):</strong> {{ seat }}</p>
+            <p><strong>Payment ID:</strong> {{ payment_id }}</p>
+        </div>
+        
+        <p>Please show this email at the theater entrance.</p>
+        <p>Enjoy the movie!</p>
+        
+        <div class="footer">
+            <p>&copy; 2026 BookMyShow Clone</p>
+        </div>
+    </div>
+</body>
+</html>
