@@ -5,6 +5,9 @@ from urllib.parse import urlparse
 
 
 def validate_youtube_url(value):
+    """Validates that the URL is a legitimate YouTube URL.
+    Prevents XSS and script injection by enforcing https scheme,
+    blocking embedded credentials, and whitelisting domains."""
     allowed_domains = [
         "www.youtube.com",
         "youtube.com",
@@ -12,6 +15,18 @@ def validate_youtube_url(value):
     ]
 
     parsed = urlparse(value)
+
+    # Enforce HTTPS scheme only
+    if parsed.scheme != 'https':
+        raise ValidationError(
+            "Only HTTPS YouTube URLs are allowed."
+        )
+
+    # Block URLs with embedded credentials (e.g., https://user:pass@youtube.com)
+    if parsed.username or parsed.password:
+        raise ValidationError(
+            "URLs with embedded credentials are not allowed."
+        )
 
     if parsed.netloc not in allowed_domains:
         raise ValidationError(
@@ -68,7 +83,7 @@ class Seat(models.Model):
         related_name='seats'
     )
     seat_number = models.CharField(max_length=10)
-    is_booked = models.BooleanField(default=False)
+    is_booked = models.BooleanField(default=False, db_index=True)
     locked_by = models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL, related_name='locked_seats')
     locked_at = models.DateTimeField(null=True, blank=True)
 
@@ -82,7 +97,7 @@ class Booking(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     theater = models.ForeignKey(Theater, on_delete=models.CASCADE)
     payment = models.ForeignKey('Payment', on_delete=models.CASCADE, null=True, blank=True, related_name='bookings')
-    booked_at = models.DateTimeField(auto_now_add=True)
+    booked_at = models.DateTimeField(auto_now_add=True, db_index=True)
 
     def __str__(self):
         return f'Booking by {self.user.username} for {self.seat.seat_number} at {self.theater.name}'
@@ -98,9 +113,9 @@ class Payment(models.Model):
     razorpay_payment_id = models.CharField(max_length=100, null=True, blank=True)
     razorpay_signature = models.CharField(max_length=200, null=True, blank=True)
     amount = models.DecimalField(max_digits=10, decimal_places=2)
-    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Pending')
+    status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='Pending', db_index=True)
     idempotency_key = models.CharField(max_length=255, unique=True, null=True, blank=True)
-    created_at = models.DateTimeField(auto_now_add=True)
+    created_at = models.DateTimeField(auto_now_add=True, db_index=True)
 
     def __str__(self):
         return f'{self.booking.user.username} - {self.razorpay_order_id} - {self.status}'

@@ -1,11 +1,15 @@
 from django.shortcuts import render, redirect ,get_object_or_404
 from .models import Movie,Theater,Seat,Booking
 from django.contrib.auth.decorators import login_required
-from django.db import IntegrityError, transaction
+from django.db import IntegrityError, transaction, DatabaseError
 from urllib.parse import urlparse, parse_qs
 from django.utils import timezone
+import re
 
 def get_youtube_embed_url(url):
+    """Safely extracts a YouTube video ID and returns an embed URL.
+    Uses regex to validate the video ID contains only safe characters
+    (alphanumeric, hyphens, underscores) to prevent XSS injection."""
     if not url:
         return None
 
@@ -23,6 +27,10 @@ def get_youtube_embed_url(url):
             return None
 
         if not video_id:
+            return None
+
+        # Sanitize: only allow alphanumeric, hyphens, underscores (valid YouTube IDs)
+        if not re.match(r'^[a-zA-Z0-9_-]+$', video_id):
             return None
 
         return f"https://www.youtube.com/embed/{video_id}"
@@ -93,22 +101,34 @@ def book_seats(request,theater_id):
             return render(request,"movies/seat_selection.html",{'theaters':theaters,"seats":seats,'error':"No seat selected"})
         
         locked_seats = []
-        with transaction.atomic():
-            db_seats = Seat.objects.select_for_update().filter(id__in=selected_Seats, theater=theaters)
-            
-            if len(db_seats) != len(selected_Seats):
-                return render(request, "movies/seat_selection.html", {'theaters': theaters, "seats": seats, 'error': "Invalid seats selected"})
-            
-            for seat in db_seats:
-                if seat.is_booked:
-                    error_seats.append(seat.seat_number)
-                elif seat.locked_by and seat.locked_by != request.user and seat.locked_at and (now - seat.locked_at).total_seconds() < 120:
-                    error_seats.append(seat.seat_number)
-                else:
-                    seat.locked_by = request.user
-                    seat.locked_at = now
-                    seat.save()
-                    locked_seats.append(seat)
+        try:
+            with transaction.atomic():
+                # select_for_update(nowait=True) acquires row-level locks immediately.
+                # If another transaction holds the lock, a DatabaseError is raised
+                # instead of waiting — this prevents race conditions under
+                # simultaneous requests from multiple users.
+                db_seats = Seat.objects.select_for_update(nowait=True).filter(id__in=selected_Seats, theater=theaters)
+                
+                if len(db_seats) != len(selected_Seats):
+                    return render(request, "movies/seat_selection.html", {'theaters': theaters, "seats": seats, 'error': "Invalid seats selected"})
+                
+                for seat in db_seats:
+                    if seat.is_booked:
+                        error_seats.append(seat.seat_number)
+                    elif seat.locked_by and seat.locked_by != request.user and seat.locked_at and (now - seat.locked_at).total_seconds() < 120:
+                        error_seats.append(seat.seat_number)
+                    else:
+                        seat.locked_by = request.user
+                        seat.locked_at = now
+                        seat.save()
+                        locked_seats.append(seat)
+        except DatabaseError:
+            # Another user is simultaneously booking these seats — row lock conflict
+            return render(request, "movies/seat_selection.html", {
+                'theaters': theaters,
+                'seats': Seat.objects.filter(theater=theaters),
+                'error': "These seats are being booked by another user. Please try again."
+            })
                     
         if error_seats:
             error_message = f"The following seats are already booked or temporarily locked: {', '.join(error_seats)}"

@@ -103,7 +103,7 @@
                 <ul class="pagination justify-content-center">
                     {% if page_obj.has_previous %}
                     <li class="page-item">
-                        <a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.previous_page_number }}">Previous</a>
+                    <a class="page-link" href="?{% for key, values in request.GET.lists %}{% if key != 'page' %}{% for val in values %}{{ key }}={{ val }}&{% endfor %}{% endif %}{% endfor %}page={{ page_obj.previous_page_number }}">Previous</a>
                     </li>
                     {% else %}
                     <li class="page-item disabled">
@@ -115,13 +115,13 @@
                         {% if page_obj.number == num %}
                         <li class="page-item active"><span class="page-link">{{ num }}</span></li>
                         {% else %}
-                        <li class="page-item"><a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ num }}">{{ num }}</a></li>
+                        <li class="page-item"><a class="page-link" href="?{% for key, values in request.GET.lists %}{% if key != 'page' %}{% for val in values %}{{ key }}={{ val }}&{% endfor %}{% endif %}{% endfor %}page={{ num }}">{{ num }}</a></li>
                         {% endif %}
                     {% endfor %}
 
                     {% if page_obj.has_next %}
                     <li class="page-item">
-                        <a class="page-link" href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.next_page_number }}">Next</a>
+                        <a class="page-link" href="?{% for key, values in request.GET.lists %}{% if key != 'page' %}{% for val in values %}{{ key }}={{ val }}&{% endfor %}{% endif %}{% endfor %}page={{ page_obj.next_page_number }}">Next</a>
                     </li>
                     {% else %}
                     <li class="page-item disabled">

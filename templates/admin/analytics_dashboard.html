@@ -24,6 +24,18 @@
         <div class="value">₹{{ total_revenue|floatformat:2 }}</div>
     </div>
     <div class="card">
+        <h3>Daily Revenue (Today)</h3>
+        <div class="value">₹{{ daily_revenue|floatformat:2 }}</div>
+    </div>
+    <div class="card">
+        <h3>Weekly Revenue (7 Days)</h3>
+        <div class="value">₹{{ weekly_revenue|floatformat:2 }}</div>
+    </div>
+    <div class="card">
+        <h3>Monthly Revenue (30 Days)</h3>
+        <div class="value">₹{{ monthly_revenue|floatformat:2 }}</div>
+    </div>
+    <div class="card">
         <h3>Cancellation / Failure Rate</h3>
         <div class="value">{{ cancellation_rate }}%</div>
     </div>
@@ -63,6 +75,26 @@
             <tr>
                 <td>{{ theater.name }}</td>
                 <td>{{ theater.occupancy_rate|floatformat:2 }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="table-container">
+    <h2>Peak Booking Hours</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Hour of Day</th>
+                <th>Number of Bookings</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in peak_hours %}
+            <tr>
+                <td>{{ entry.hour }}:00</td>
+                <td>{{ entry.booking_count }}</td>
             </tr>
             {% endfor %}
         </tbody>

@@ -106,6 +106,26 @@ def paymenthandler(request):
                             seat.locked_by = None
                             seat.locked_at = None
                             seat.save()
+                        
+                        # Queue confirmation email (non-blocking via background scheduler)
+                        if payment.bookings.exists():
+                            first_booking = payment.bookings.first()
+                            email_context = {
+                                'username': first_booking.user.username,
+                                'movie': first_booking.movie.name,
+                                'theater': first_booking.theater.name,
+                                'time': first_booking.theater.time,
+                                'seat': ', '.join([b.seat.seat_number for b in payment.bookings.all()]),
+                                'payment_id': payment_id
+                            }
+                            email_html = render_to_string('movies/email_booking.html', email_context)
+                            from .models import EmailQueue
+                            EmailQueue.objects.create(
+                                recipient=first_booking.user.email,
+                                subject='Ticket Confirmation - BookMyShow',
+                                html_message=email_html,
+                                status='Pending'
+                            )
                 return render(request, 'movies/payment_success.html')
             else:
                 return render(request, 'movies/payment_fail.html')
@@ -119,6 +139,8 @@ def razorpay_webhook(request):
     """
     Secure server-side webhook to handle payment success/failure.
     Handles idempotency to prevent duplicate bookings.
+    Uses select_for_update() inside transaction.atomic() to prevent
+    race conditions when duplicate webhook events arrive simultaneously.
     """
     webhook_secret = 'mock_webhook_secret' # In production, load from settings
     webhook_signature = request.headers.get('X-Razorpay-Signature')
@@ -131,10 +153,6 @@ def razorpay_webhook(request):
 
     payload = json.loads(request.body)
     event = payload['event']
-    
-    # Check Idempotency (prevent duplicate webhooks from processing)
-    if Payment.objects.filter(idempotency_key=event_id).exists():
-        return HttpResponse("Duplicate webhook, ignored.", status=200)
 
     if event == 'payment.captured':
         payment_entity = payload['payload']['payment']['entity']
@@ -143,41 +161,49 @@ def razorpay_webhook(request):
         payment_id = payment_entity['id']
         
         with transaction.atomic():
-            # In a real scenario, find the booking or seat IDs from order notes.
-            # Here we mock the finalization logic for demonstration.
-            payment = Payment.objects.filter(razorpay_order_id=order_id).first()
-            if payment and payment.status != 'Success':
-                payment.status = 'Success'
-                payment.razorpay_payment_id = payment_id
-                payment.idempotency_key = event_id
-                payment.save()
-                
-                for booking in payment.bookings.all():
-                    seat = booking.seat
-                    seat.is_booked = True
-                    seat.locked_by = None
-                    seat.locked_at = None
-                    seat.save()
-                
-                if payment.bookings.exists():
-                    booking = payment.bookings.first()
-                    # Send Async Email
-                    context = {
-                        'username': booking.user.username,
-                        'movie': booking.movie.name,
-                        'theater': booking.theater.name,
-                        'time': booking.theater.time,
-                        'seat': ', '.join([b.seat.seat_number for b in payment.bookings.all()]),
-                        'payment_id': payment_id
-                    }
-                    html_message = render_to_string('movies/email_booking.html', context)
-                    from .models import EmailQueue
-                    EmailQueue.objects.create(
-                        recipient=booking.user.email,
-                        subject='Ticket Confirmation - BookMyShow',
-                        html_message=html_message,
-                        status='Pending'
-                    )
+            # Lock the Payment row to prevent race conditions from duplicate webhooks.
+            # The idempotency check is INSIDE the atomic block so two simultaneous
+            # webhook requests cannot both pass the check before either commits.
+            payment = Payment.objects.select_for_update().filter(razorpay_order_id=order_id).first()
+            
+            if not payment:
+                return HttpResponse("Order not found", status=404)
+            
+            # Idempotency: if already processed or if this event_id was seen before, skip
+            if payment.status == 'Success' or payment.idempotency_key == event_id:
+                return HttpResponse("Duplicate webhook, ignored.", status=200)
+            
+            payment.status = 'Success'
+            payment.razorpay_payment_id = payment_id
+            payment.idempotency_key = event_id
+            payment.save()
+            
+            for booking in payment.bookings.all():
+                seat = booking.seat
+                seat.is_booked = True
+                seat.locked_by = None
+                seat.locked_at = None
+                seat.save()
+            
+            # Queue confirmation email (non-blocking, processed by background scheduler)
+            if payment.bookings.exists():
+                booking = payment.bookings.first()
+                context = {
+                    'username': booking.user.username,
+                    'movie': booking.movie.name,
+                    'theater': booking.theater.name,
+                    'time': booking.theater.time,
+                    'seat': ', '.join([b.seat.seat_number for b in payment.bookings.all()]),
+                    'payment_id': payment_id
+                }
+                html_message = render_to_string('movies/email_booking.html', context)
+                from .models import EmailQueue
+                EmailQueue.objects.create(
+                    recipient=booking.user.email,
+                    subject='Ticket Confirmation - BookMyShow',
+                    html_message=html_message,
+                    status='Pending'
+                )
             
         return HttpResponse("Success", status=200)
         
