@@ -4,6 +4,6 @@ venv310/
 __pycache__/
 *.pyc
 db.sqlite3
-media/
+# media/
 .env
 staticfiles/
