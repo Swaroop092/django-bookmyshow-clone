@@ -1,169 +1,13 @@
-﻿[
+[
 {
   "model": "admin.logentry",
-  "pk": 1,
+  "pk": 15,
   "fields": {
-    "action_time": "2024-10-27T21:09:30.933Z",
-    "user": 1,
+    "action_time": "2026-05-16T04:20:07.049Z",
+    "user": 3,
     "content_type": 9,
-    "object_id": "1",
-    "object_repr": "avengers",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 2,
-  "fields": {
-    "action_time": "2024-10-27T21:11:29.169Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "1",
-    "object_repr": "rdj - avengers at 2024-10-31 21:09:53+00:00",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 3,
-  "fields": {
-    "action_time": "2024-10-27T21:11:36.956Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "a1 in rdj",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 4,
-  "fields": {
-    "action_time": "2024-10-27T21:11:47.543Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "2",
-    "object_repr": "a2 in rdj",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 5,
-  "fields": {
-    "action_time": "2024-10-29T19:30:20.107Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "2",
-    "object_repr": "movie1",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 6,
-  "fields": {
-    "action_time": "2024-10-29T19:30:38.123Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "3",
-    "object_repr": "movie 3",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 7,
-  "fields": {
-    "action_time": "2024-10-29T19:30:56.950Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "4",
-    "object_repr": "movie4",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 8,
-  "fields": {
-    "action_time": "2024-10-29T19:31:09.100Z",
-    "user": 1,
-    "content_type": 9,
-    "object_id": "5",
-    "object_repr": "ergeg",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 9,
-  "fields": {
-    "action_time": "2024-10-29T19:31:28.515Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "2",
-    "object_repr": "hjukuyku - movie1 at 2024-10-23 06:00:00+00:00",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 10,
-  "fields": {
-    "action_time": "2024-10-29T19:31:39.423Z",
-    "user": 1,
-    "content_type": 8,
-    "object_id": "3",
-    "object_repr": "faea - movie 3 at 2024-10-21 12:00:00+00:00",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 11,
-  "fields": {
-    "action_time": "2024-10-29T19:31:46.428Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "3",
-    "object_repr": "a1 in hjukuyku",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 12,
-  "fields": {
-    "action_time": "2024-10-29T19:31:51.190Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "4",
-    "object_repr": "a2 in rdj",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
-  }
-},
-{
-  "model": "admin.logentry",
-  "pk": 13,
-  "fields": {
-    "action_time": "2024-10-29T19:31:58.608Z",
-    "user": 1,
-    "content_type": 7,
-    "object_id": "5",
-    "object_repr": "a1 in faea",
+    "object_id": "6",
+    "object_repr": "They Call Him OG",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -183,13 +27,169 @@
 },
 {
   "model": "admin.logentry",
-  "pk": 15,
+  "pk": 13,
   "fields": {
-    "action_time": "2026-05-16T04:20:07.049Z",
-    "user": 3,
+    "action_time": "2024-10-29T19:31:58.608Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "a1 in faea",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-29T19:31:51.190Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "a2 in rdj",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-29T19:31:46.428Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "a1 in hjukuyku",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-29T19:31:39.423Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "faea - movie 3 at 2024-10-21 12:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-29T19:31:28.515Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "hjukuyku - movie1 at 2024-10-23 06:00:00+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-29T19:31:09.100Z",
+    "user": 1,
     "content_type": 9,
-    "object_id": "6",
-    "object_repr": "They Call Him OG",
+    "object_id": "5",
+    "object_repr": "ergeg",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-29T19:30:56.950Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "movie4",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-29T19:30:38.123Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "movie 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-29T19:30:20.107Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "movie1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-27T21:11:47.543Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "a2 in rdj",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-27T21:11:36.956Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "a1 in rdj",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-27T21:11:29.169Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "rdj - avengers at 2024-10-31 21:09:53+00:00",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-27T21:09:30.933Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "avengers",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -232,42 +232,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 5,
-  "fields": {
-    "name": "Can add permission",
-    "content_type": 2,
-    "codename": "add_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 6,
-  "fields": {
-    "name": "Can change permission",
-    "content_type": 2,
-    "codename": "change_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 7,
-  "fields": {
-    "name": "Can delete permission",
-    "content_type": 2,
-    "codename": "delete_permission"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 8,
-  "fields": {
-    "name": "Can view permission",
-    "content_type": 2,
-    "codename": "view_permission"
-  }
-},
-{
-  "model": "auth.permission",
   "pk": 9,
   "fields": {
     "name": "Can add group",
@@ -300,6 +264,42 @@
     "name": "Can view group",
     "content_type": 3,
     "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
   }
 },
 {
@@ -376,150 +376,6 @@
 },
 {
   "model": "auth.permission",
-  "pk": 21,
-  "fields": {
-    "name": "Can add session",
-    "content_type": 6,
-    "codename": "add_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 22,
-  "fields": {
-    "name": "Can change session",
-    "content_type": 6,
-    "codename": "change_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 23,
-  "fields": {
-    "name": "Can delete session",
-    "content_type": 6,
-    "codename": "delete_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 24,
-  "fields": {
-    "name": "Can view session",
-    "content_type": 6,
-    "codename": "view_session"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 25,
-  "fields": {
-    "name": "Can add seat",
-    "content_type": 7,
-    "codename": "add_seat"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 26,
-  "fields": {
-    "name": "Can change seat",
-    "content_type": 7,
-    "codename": "change_seat"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 27,
-  "fields": {
-    "name": "Can delete seat",
-    "content_type": 7,
-    "codename": "delete_seat"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 28,
-  "fields": {
-    "name": "Can view seat",
-    "content_type": 7,
-    "codename": "view_seat"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 29,
-  "fields": {
-    "name": "Can add theater",
-    "content_type": 8,
-    "codename": "add_theater"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 30,
-  "fields": {
-    "name": "Can change theater",
-    "content_type": 8,
-    "codename": "change_theater"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 31,
-  "fields": {
-    "name": "Can delete theater",
-    "content_type": 8,
-    "codename": "delete_theater"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 32,
-  "fields": {
-    "name": "Can view theater",
-    "content_type": 8,
-    "codename": "view_theater"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 33,
-  "fields": {
-    "name": "Can add movie",
-    "content_type": 9,
-    "codename": "add_movie"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 34,
-  "fields": {
-    "name": "Can change movie",
-    "content_type": 9,
-    "codename": "change_movie"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 35,
-  "fields": {
-    "name": "Can delete movie",
-    "content_type": 9,
-    "codename": "delete_movie"
-  }
-},
-{
-  "model": "auth.permission",
-  "pk": 36,
-  "fields": {
-    "name": "Can view movie",
-    "content_type": 9,
-    "codename": "view_movie"
-  }
-},
-{
-  "model": "auth.permission",
   "pk": 37,
   "fields": {
     "name": "Can add booking",
@@ -556,38 +412,38 @@
 },
 {
   "model": "auth.permission",
-  "pk": 41,
+  "pk": 53,
   "fields": {
-    "name": "Can add payment",
-    "content_type": 11,
-    "codename": "add_payment"
+    "name": "Can add email queue",
+    "content_type": 14,
+    "codename": "add_emailqueue"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 42,
+  "pk": 54,
   "fields": {
-    "name": "Can change payment",
-    "content_type": 11,
-    "codename": "change_payment"
+    "name": "Can change email queue",
+    "content_type": 14,
+    "codename": "change_emailqueue"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 43,
+  "pk": 55,
   "fields": {
-    "name": "Can delete payment",
-    "content_type": 11,
-    "codename": "delete_payment"
+    "name": "Can delete email queue",
+    "content_type": 14,
+    "codename": "delete_emailqueue"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 44,
+  "pk": 56,
   "fields": {
-    "name": "Can view payment",
-    "content_type": 11,
-    "codename": "view_payment"
+    "name": "Can view email queue",
+    "content_type": 14,
+    "codename": "view_emailqueue"
   }
 },
 {
@@ -664,38 +520,182 @@
 },
 {
   "model": "auth.permission",
-  "pk": 53,
+  "pk": 33,
   "fields": {
-    "name": "Can add email queue",
-    "content_type": 14,
-    "codename": "add_emailqueue"
+    "name": "Can add movie",
+    "content_type": 9,
+    "codename": "add_movie"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 54,
+  "pk": 34,
   "fields": {
-    "name": "Can change email queue",
-    "content_type": 14,
-    "codename": "change_emailqueue"
+    "name": "Can change movie",
+    "content_type": 9,
+    "codename": "change_movie"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 55,
+  "pk": 35,
   "fields": {
-    "name": "Can delete email queue",
-    "content_type": 14,
-    "codename": "delete_emailqueue"
+    "name": "Can delete movie",
+    "content_type": 9,
+    "codename": "delete_movie"
   }
 },
 {
   "model": "auth.permission",
-  "pk": 56,
+  "pk": 36,
   "fields": {
-    "name": "Can view email queue",
-    "content_type": 14,
-    "codename": "view_emailqueue"
+    "name": "Can view movie",
+    "content_type": 9,
+    "codename": "view_movie"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add payment",
+    "content_type": 11,
+    "codename": "add_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change payment",
+    "content_type": 11,
+    "codename": "change_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete payment",
+    "content_type": 11,
+    "codename": "delete_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view payment",
+    "content_type": 11,
+    "codename": "view_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add seat",
+    "content_type": 7,
+    "codename": "add_seat"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change seat",
+    "content_type": 7,
+    "codename": "change_seat"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete seat",
+    "content_type": 7,
+    "codename": "delete_seat"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view seat",
+    "content_type": 7,
+    "codename": "view_seat"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add theater",
+    "content_type": 8,
+    "codename": "add_theater"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change theater",
+    "content_type": 8,
+    "codename": "change_theater"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete theater",
+    "content_type": 8,
+    "codename": "delete_theater"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view theater",
+    "content_type": 8,
+    "codename": "view_theater"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
   }
 },
 {
@@ -946,26 +946,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "ggtk26u6zryvibcc511c5dn4qxh1k303",
+  "pk": "ungcb9yex75bf1mzbh1ynk11hxd8up3l",
   "fields": {
-    "session_data": ".eJxVjDEOwjAMRe-SGUUpbmrDyN4zRI5tSAG1UtNOiLtDpQ6w_vfef7nE61LSWm1Og7qzA3f43TLLw8YN6J3H2-RlGpd5yH5T_E6r7ye152V3_w4K1_KtA2AEIDOBzC11DR3xGk8qEJqOgyCRBGUywRzVGDuICJmsjcKs6N4f1PE4Cg:1wO6Lr:TnfV-7bZVieeREg5pfpnF_3qD6Da0zqkqnRYkfYIs0E",
-    "expire_date": "2026-05-30T04:10:11.328Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "o45hvkm76ck9bkss1i5dnxhjan52fstp",
-  "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYPl9a5xADlSnFSIu0OkFNC-mXkvlvK2trQNWtKE7Mw8O_1ukMuD-g7wnvtt5mXu6zIB3xV-0MGvM9Lzcrh_By2P9q2LKlrWqhS5rHSVNpJzRgFoEYIHq6sQ6CWUgDbECFQLOh3AkEBtbGTvD-VhN98:1weozT:20DoWMWcdxLVSZvZZIIWrwxG9X026CRZCni8TF2GybA",
-    "expire_date": "2026-07-15T07:04:11.790Z"
-  }
-},
-{
-  "model": "sessions.session",
-  "pk": "qmxs6am79xxxgiks8ljt5f9dgvc02upk",
-  "fields": {
-    "session_data": ".eJxVj0kOwjAMRe-SdVUlNk3aLtlzAoQiZ4CWoUFJugDE3UmlIsHO_sOT_WKa5jzoOfmoR8d6tmHVr2bIXvy0GO5M0ynUNkw5jqZeIvXqpnoXnL9u1-wfYKA0lDZ02FBnDIJzZZKNQKs8iY4fCRuDSoIHBEPAUQjvVCtbi7CRpKy0XBboNRS808lTTqzfI69QHCqWhyKs14uKRXqGeKeHDtF9f7qV5roL1YLqgAMWIt3CPGXWI-fvDyh1VdA:1wePe3:UcZAGw8HvWblVLnqpeQqDRa3I29cgzGpIEsfOaxSdFo",
-    "expire_date": "2026-07-14T04:00:23.021Z"
+    "session_data": ".eJxVzEEOgjAUBNC7dG0aKE3_4NK9Z2j6-4ugpk0orIh3FxIWup15M5vyYV1Gv9Y0-0nUVbXq8ptxiK-Uj0KeIT-KjiUv88T6IPpsq74XSe_baf8OxlDHfd3xAB4CBiFjyUiCNJ0jQ2w7ASNEAsiJax3FBoBFf5AekH436vMF5_03TA:1t5ruL:wU5Lw3N3hYLsBh7ntssyZlFIwOQmGEoXFQZJ_n6JeCk",
+    "expire_date": "2024-11-12T19:29:37.831Z"
   }
 },
 {
@@ -978,10 +962,26 @@
 },
 {
   "model": "sessions.session",
-  "pk": "ungcb9yex75bf1mzbh1ynk11hxd8up3l",
+  "pk": "ggtk26u6zryvibcc511c5dn4qxh1k303",
   "fields": {
-    "session_data": ".eJxVzEEOgjAUBNC7dG0aKE3_4NK9Z2j6-4ugpk0orIh3FxIWup15M5vyYV1Gv9Y0-0nUVbXq8ptxiK-Uj0KeIT-KjiUv88T6IPpsq74XSe_baf8OxlDHfd3xAB4CBiFjyUiCNJ0jQ2w7ASNEAsiJax3FBoBFf5AekH436vMF5_03TA:1t5ruL:wU5Lw3N3hYLsBh7ntssyZlFIwOQmGEoXFQZJ_n6JeCk",
-    "expire_date": "2024-11-12T19:29:37.831Z"
+    "session_data": ".eJxVjDEOwjAMRe-SGUUpbmrDyN4zRI5tSAG1UtNOiLtDpQ6w_vfef7nE61LSWm1Og7qzA3f43TLLw8YN6J3H2-RlGpd5yH5T_E6r7ye152V3_w4K1_KtA2AEIDOBzC11DR3xGk8qEJqOgyCRBGUywRzVGDuICJmsjcKs6N4f1PE4Cg:1wO6Lr:TnfV-7bZVieeREg5pfpnF_3qD6Da0zqkqnRYkfYIs0E",
+    "expire_date": "2026-05-30T04:10:11.328Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qmxs6am79xxxgiks8ljt5f9dgvc02upk",
+  "fields": {
+    "session_data": ".eJxVj0kOwjAMRe-SdVUlNk3aLtlzAoQiZ4CWoUFJugDE3UmlIsHO_sOT_WKa5jzoOfmoR8d6tmHVr2bIXvy0GO5M0ynUNkw5jqZeIvXqpnoXnL9u1-wfYKA0lDZ02FBnDIJzZZKNQKs8iY4fCRuDSoIHBEPAUQjvVCtbi7CRpKy0XBboNRS808lTTqzfI69QHCqWhyKs14uKRXqGeKeHDtF9f7qV5roL1YLqgAMWIt3CPGXWI-fvDyh1VdA:1wePe3:UcZAGw8HvWblVLnqpeQqDRa3I29cgzGpIEsfOaxSdFo",
+    "expire_date": "2026-07-14T04:00:23.021Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o45hvkm76ck9bkss1i5dnxhjan52fstp",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-fyjpOYPl9a5xADlSnFSIu0OkFNC-mXkvlvK2trQNWtKE7Mw8O_1ukMuD-g7wnvtt5mXu6zIB3xV-0MGvM9Lzcrh_By2P9q2LKlrWqhS5rHSVNpJzRgFoEYIHq6sQ6CWUgDbECFQLOh3AkEBtbGTvD-VhN98:1weozT:20DoWMWcdxLVSZvZZIIWrwxG9X026CRZCni8TF2GybA",
+    "expire_date": "2026-07-15T07:04:11.790Z"
   }
 },
 {
