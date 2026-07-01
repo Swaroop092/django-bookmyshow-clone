@@ -142,7 +142,7 @@ def razorpay_webhook(request):
     Uses select_for_update() inside transaction.atomic() to prevent
     race conditions when duplicate webhook events arrive simultaneously.
     """
-    webhook_secret = 'mock_webhook_secret' # In production, load from settings
+    webhook_secret = os.environ.get("RAZORPAY_WEBHOOK_SECRET")
     webhook_signature = request.headers.get('X-Razorpay-Signature')
     event_id = request.headers.get('X-Razorpay-Event-Id')
     
