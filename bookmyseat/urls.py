@@ -12,5 +12,8 @@ urlpatterns = [
     path('movies/', include('movies.urls')),
 ]
 
-# 🔥 ALWAYS serve media (not only DEBUG)
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Serve uploaded media files
+urlpatterns += static(
+    settings.MEDIA_URL,
+    document_root=settings.MEDIA_ROOT
+)

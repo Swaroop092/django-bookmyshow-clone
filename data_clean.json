@@ -1,0 +1,8152 @@
+[
+    {
+        "model": "movies.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Action"
+        }
+    },
+    {
+        "model": "movies.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Comedy"
+        }
+    },
+    {
+        "model": "movies.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Drama"
+        }
+    },
+    {
+        "model": "movies.genre",
+        "pk": 4,
+        "fields": {
+            "name": "Sci-Fi"
+        }
+    },
+    {
+        "model": "movies.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Thriller"
+        }
+    },
+    {
+        "model": "movies.language",
+        "pk": 1,
+        "fields": {
+            "name": "English"
+        }
+    },
+    {
+        "model": "movies.language",
+        "pk": 2,
+        "fields": {
+            "name": "Hindi"
+        }
+    },
+    {
+        "model": "movies.language",
+        "pk": 3,
+        "fields": {
+            "name": "Telugu"
+        }
+    },
+    {
+        "model": "movies.language",
+        "pk": 4,
+        "fields": {
+            "name": "Tamil"
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 1,
+        "fields": {
+            "name": "avengers",
+            "image": "movies/635217f73e372771013edb4c-the-avengers-poster-marvel-movie-canvas1.jpg",
+            "rating": "8.9",
+            "cast": "rdj,steve,chris",
+            "description": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving ...",
+            "trailer_url": null,
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 2,
+        "fields": {
+            "name": "movie1",
+            "image": "movies/download.jpeg",
+            "rating": "6.7",
+            "cast": "dve rg erg rge ger",
+            "description": "erg erg erge ger geg",
+            "trailer_url": null,
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 3,
+        "fields": {
+            "name": "movie 3",
+            "image": "movies/f5VK0h2bprRhR6iRrixcuEfRxSUF4l14F66vQYrsJGmKZ5nTA1.jpg",
+            "rating": "5.6",
+            "cast": "efwefwef",
+            "description": "wefwefwef",
+            "trailer_url": null,
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 4,
+        "fields": {
+            "name": "movie4",
+            "image": "movies/feUv2SYumXlT8E2RhzlYbZxfEGLG5AVrCPxP1gmAaCusxyPnA1.jpg",
+            "rating": "6.3",
+            "cast": "adcwefwe",
+            "description": "fwefwefewfwe",
+            "trailer_url": null,
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 5,
+        "fields": {
+            "name": "ergeg",
+            "image": "movies/IQsBhg9t747dLhjXfsChIGZy4XfugER8BF0Gw5MDhIcnY5nTA1.jpg",
+            "rating": "9.9",
+            "cast": "tujtyjyh",
+            "description": "trhrthrthjr",
+            "trailer_url": null,
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 6,
+        "fields": {
+            "name": "They Call Him OG",
+            "image": "movies/Pawan_Kalyan___OG___WALLPAPER.jpg",
+            "rating": "6.0",
+            "cast": "Pawan Kalyan at an event for Katamarayudu (2017)\r\nPawan Kalyan\r\nOjas Gambheera\r\nPrakash Raj\r\nPrakash Raj\r\nSatya Dada\r\nEmraan Hashmi\r\nEmraan Hashmi\r\nOmi Bhau\r\nPriyanka Arulmohan\r\nPriyanka Arulmohan\r\nKanmani\r\nShreya Reddy\r\nShreya Reddy\r\nGeetha\r\nSubhalekha Sudhakar\r\nSubhalekha Sudhakar\r\nDharani\r\nRahul Ravindran in Andala Rakshasi (2012)\r\nRahul Ravindran\r\nSudev Nair\r\nSudev Nair\r\nAbhimanyu Singh in Jazbaa (2015)\r\nAbhimanyu Singh\r\nArjun Das\r\nArjun Das\r\nArjun\r\nTej Sapru in Purani Haveli (1989)\r\nTej Sapru\r\nMirajkar\r\nHarish Uthaman\r\nHarish Uthaman\r\nSathya Prakash\r\n(as Satya Prakash)\r\nKazuki Kitamura\r\nKazuki Kitamura\r\nYakuza Boss\r\nVincent Ashokan\r\n(as Vincent Asokan)\r\nSayesha Shah\r\nShaam\r\nShaam\r\nSrikanth Iyengar\r\n(as Srikant Iyengar)\r\nVenkat\r\nRanju Sharma\r\nDarbha Appaji Ambarisha\r\n(as Appaji)\r\nKeiichi Ando\r\nKeiichi Ando\r\nSanjay Vichare\r\nSanjay Vichare\r\nVijay Trivedi\r\nVijay Trivedi\r\nParesh Deshmukh\r\nParitosh Sand\r\nParitosh Sand\r\nAjay Ghosh\r\nAjay Ghosh\r\nVishwendhar Reddy\r\nMotta Rajendran\r\nMotta Rajendran\r\nSalim Baig\r\nVikas Mehta\r\nVikas Mehta\r\nSaurav Lokkesh\r\nShakul Sharma\r\nRana Choudary\r\nVinod Pindian\r\nMarcell D'Souza\r\nSuma Tripurana\r\nTilak Raj Joshi\r\nPammi Sai\r\nNalla Sreedhar Reddy Gabbar\r\nHenchman\r\nVemuri Murthy\r\nRaj Tirandasu\r\nSuleman\r\nSubhashree Rayaguru\r\nMvn Kashyap\r\nVishal Dhariwal\r\nAjay Dutt\r\nRayah Selene\r\nDinesh Bhati\r\nAftab Ali\r\nParesh Barhambatt\r\nKiran Advikolanu\r\nSameer Kalbe\r\nRajesh Rambo\r\nRevathi Nandan\r\nShatrughan Kumar\r\nTamil Killer\r\nShiva Hariharan\r\nRaja Panuganti\r\nJil Sridhar\r\nShaan Kakkar\r\nGangster\r\nBollu Varun\r\nSekhar Neelsetty\r\nRavinder Bommakanti\r\n(as Ravinder Bommakkanti)\r\nSanchi Bharti\r\nRama Krishna Naidu\r\nMadhava Ashok\r\nPrrathik Kowali\r\nSudhakar Naidu",
+            "description": "",
+            "trailer_url": "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+            "genres": [],
+            "languages": []
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 7,
+        "fields": {
+            "name": "Inception 2",
+            "image": "movies/dummy.gif",
+            "rating": "9.2",
+            "cast": "Leonardo DiCaprio, Tom Hardy",
+            "description": "A mind-bending sci-fi thriller about dream sharing.",
+            "trailer_url": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+            "genres": [
+                4
+            ],
+            "languages": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 8,
+        "fields": {
+            "name": "The Avengers: Return",
+            "image": "movies/dummy_tWI4Fnc.gif",
+            "rating": "8.8",
+            "cast": "Robert Downey Jr., Chris Evans",
+            "description": "Earth's mightiest heroes reunite to save the world again.",
+            "trailer_url": "https://www.youtube.com/watch?v=eOrNdBpGMv8",
+            "genres": [
+                4
+            ],
+            "languages": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 9,
+        "fields": {
+            "name": "Comedy Nights: The Movie",
+            "image": "movies/dummy_yM5jSyy.gif",
+            "rating": "7.5",
+            "cast": "Kevin Hart, Dwayne Johnson",
+            "description": "A hilarious adventure across the globe.",
+            "trailer_url": "https://www.youtube.com/watch?v=1rPxiXXxvkE",
+            "genres": [
+                4
+            ],
+            "languages": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 10,
+        "fields": {
+            "name": "Baahubali 3: The Legacy",
+            "image": "movies/dummy_nSsKOKP.gif",
+            "rating": "9.5",
+            "cast": "Prabhas, Rana Daggubati",
+            "description": "The epic saga continues in the kingdom of Mahishmati.",
+            "trailer_url": "https://www.youtube.com/watch?v=qD-6d8Wo3do",
+            "genres": [
+                5
+            ],
+            "languages": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "movies.movie",
+        "pk": 11,
+        "fields": {
+            "name": "Mission Impossible: Final",
+            "image": "movies/dummy_Wli3sxm.gif",
+            "rating": "8.9",
+            "cast": "Tom Cruise, Rebecca Ferguson",
+            "description": "Ethan Hunt faces his most dangerous mission yet.",
+            "trailer_url": "https://www.youtube.com/watch?v=2m1drlOZSDw",
+            "genres": [
+                3
+            ],
+            "languages": [
+                3
+            ]
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 1,
+        "fields": {
+            "name": "rdj",
+            "movie": 1,
+            "time": "2024-10-31T21:09:53Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 2,
+        "fields": {
+            "name": "hjukuyku",
+            "movie": 2,
+            "time": "2024-10-23T06:00:00Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 3,
+        "fields": {
+            "name": "faea",
+            "movie": 3,
+            "time": "2024-10-21T12:00:00Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 4,
+        "fields": {
+            "name": "PVR Cinemas",
+            "movie": 7,
+            "time": "2026-06-28T23:15:34.543Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 5,
+        "fields": {
+            "name": "Cinepolis",
+            "movie": 8,
+            "time": "2026-06-28T19:15:34.564Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 6,
+        "fields": {
+            "name": "INOX",
+            "movie": 8,
+            "time": "2026-07-01T01:15:34.570Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 7,
+        "fields": {
+            "name": "INOX",
+            "movie": 8,
+            "time": "2026-07-03T01:15:34.577Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 8,
+        "fields": {
+            "name": "Carnival Cinemas",
+            "movie": 9,
+            "time": "2026-06-28T19:15:34.607Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 9,
+        "fields": {
+            "name": "Carnival Cinemas",
+            "movie": 9,
+            "time": "2026-06-30T00:15:34.613Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 10,
+        "fields": {
+            "name": "PVR Cinemas",
+            "movie": 9,
+            "time": "2026-06-27T21:15:34.620Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 11,
+        "fields": {
+            "name": "Cinepolis",
+            "movie": 10,
+            "time": "2026-06-28T22:15:34.638Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 12,
+        "fields": {
+            "name": "PVR Cinemas",
+            "movie": 10,
+            "time": "2026-07-01T00:15:34.645Z"
+        }
+    },
+    {
+        "model": "movies.theater",
+        "pk": 13,
+        "fields": {
+            "name": "PVR Cinemas",
+            "movie": 11,
+            "time": "2026-06-28T20:15:34.662Z"
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 1,
+        "fields": {
+            "theater": 1,
+            "seat_number": "a1",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 2,
+        "fields": {
+            "theater": 1,
+            "seat_number": "a2",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 3,
+        "fields": {
+            "theater": 2,
+            "seat_number": "a1",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 4,
+        "fields": {
+            "theater": 1,
+            "seat_number": "a2",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 5,
+        "fields": {
+            "theater": 3,
+            "seat_number": "a1",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 6,
+        "fields": {
+            "theater": 3,
+            "seat_number": "a2",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 7,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 8,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 9,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 10,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 11,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 12,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 13,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 14,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 15,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 16,
+        "fields": {
+            "theater": 1,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 17,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 18,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 19,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 20,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 21,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 22,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 23,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 24,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 25,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B9",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 26,
+        "fields": {
+            "theater": 1,
+            "seat_number": "B10",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 27,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C1",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 28,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C2",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 29,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 30,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C4",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 31,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C5",
+            "is_booked": true,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 32,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 33,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 34,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 35,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 36,
+        "fields": {
+            "theater": 1,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 37,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 38,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 39,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 40,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 41,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 42,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 43,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 44,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 45,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 46,
+        "fields": {
+            "theater": 1,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 47,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 48,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 49,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 50,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 51,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 52,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 53,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 54,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 55,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 56,
+        "fields": {
+            "theater": 1,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 57,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 58,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 59,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 60,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 61,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 62,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 63,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 64,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 65,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 66,
+        "fields": {
+            "theater": 2,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 67,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 68,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 69,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 70,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 71,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 72,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 73,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 74,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 75,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 76,
+        "fields": {
+            "theater": 2,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 77,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 78,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 79,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 80,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 81,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 82,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 83,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 84,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 85,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 86,
+        "fields": {
+            "theater": 2,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 87,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 88,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 89,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 90,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 91,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 92,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 93,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 94,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 95,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 96,
+        "fields": {
+            "theater": 2,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 97,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 98,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 99,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 100,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 101,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 102,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 103,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 104,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 105,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 106,
+        "fields": {
+            "theater": 2,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 107,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 108,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 109,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 110,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 111,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 112,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 113,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 114,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 115,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 116,
+        "fields": {
+            "theater": 3,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 117,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 118,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 119,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 120,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 121,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 122,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 123,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 124,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 125,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 126,
+        "fields": {
+            "theater": 3,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 127,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 128,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 129,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 130,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 131,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 132,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 133,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 134,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 135,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 136,
+        "fields": {
+            "theater": 3,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 137,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 138,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 139,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 140,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 141,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 142,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 143,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 144,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 145,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 146,
+        "fields": {
+            "theater": 3,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 147,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 148,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 149,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 150,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 151,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 152,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 153,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 154,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 155,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 156,
+        "fields": {
+            "theater": 3,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 157,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 158,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 159,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 160,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 161,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 162,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 163,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 164,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 165,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 166,
+        "fields": {
+            "theater": 4,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 167,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 168,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 169,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 170,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 171,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 172,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 173,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 174,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 175,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 176,
+        "fields": {
+            "theater": 4,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 177,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 178,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 179,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 180,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 181,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 182,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 183,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 184,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 185,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 186,
+        "fields": {
+            "theater": 4,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 187,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 188,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 189,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 190,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 191,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 192,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 193,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 194,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 195,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 196,
+        "fields": {
+            "theater": 4,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 197,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 198,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 199,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 200,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 201,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 202,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 203,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 204,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 205,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 206,
+        "fields": {
+            "theater": 4,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 207,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 208,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 209,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 210,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 211,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 212,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 213,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 214,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 215,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 216,
+        "fields": {
+            "theater": 5,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 217,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 218,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 219,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 220,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 221,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 222,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 223,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 224,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 225,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 226,
+        "fields": {
+            "theater": 5,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 227,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 228,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 229,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 230,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 231,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 232,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 233,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 234,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 235,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 236,
+        "fields": {
+            "theater": 5,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 237,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 238,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 239,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 240,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 241,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 242,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 243,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 244,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 245,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 246,
+        "fields": {
+            "theater": 5,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 247,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 248,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 249,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 250,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 251,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 252,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 253,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 254,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 255,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 256,
+        "fields": {
+            "theater": 5,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 257,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 258,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 259,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 260,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 261,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 262,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 263,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 264,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 265,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 266,
+        "fields": {
+            "theater": 6,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 267,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 268,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 269,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 270,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 271,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 272,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 273,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 274,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 275,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 276,
+        "fields": {
+            "theater": 6,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 277,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 278,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 279,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 280,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 281,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 282,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 283,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 284,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 285,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 286,
+        "fields": {
+            "theater": 6,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 287,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 288,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 289,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 290,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 291,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 292,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 293,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 294,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 295,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 296,
+        "fields": {
+            "theater": 6,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 297,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 298,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 299,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 300,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 301,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 302,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 303,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 304,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 305,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 306,
+        "fields": {
+            "theater": 6,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 307,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 308,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 309,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 310,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 311,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 312,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 313,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 314,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 315,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 316,
+        "fields": {
+            "theater": 7,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 317,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 318,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 319,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 320,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 321,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 322,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 323,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 324,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 325,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 326,
+        "fields": {
+            "theater": 7,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 327,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 328,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 329,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 330,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 331,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 332,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 333,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 334,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 335,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 336,
+        "fields": {
+            "theater": 7,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 337,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 338,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 339,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 340,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 341,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 342,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 343,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 344,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 345,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 346,
+        "fields": {
+            "theater": 7,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 347,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 348,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 349,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 350,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 351,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 352,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 353,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 354,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 355,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 356,
+        "fields": {
+            "theater": 7,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 357,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 358,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 359,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 360,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 361,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 362,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 363,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 364,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 365,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 366,
+        "fields": {
+            "theater": 8,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 367,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 368,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 369,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 370,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 371,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 372,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 373,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 374,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 375,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 376,
+        "fields": {
+            "theater": 8,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 377,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 378,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 379,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 380,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 381,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 382,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 383,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 384,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 385,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 386,
+        "fields": {
+            "theater": 8,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 387,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 388,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 389,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 390,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 391,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 392,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 393,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 394,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 395,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 396,
+        "fields": {
+            "theater": 8,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 397,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 398,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 399,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 400,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 401,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 402,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 403,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 404,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 405,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 406,
+        "fields": {
+            "theater": 8,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 407,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 408,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 409,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 410,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 411,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 412,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 413,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 414,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 415,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 416,
+        "fields": {
+            "theater": 9,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 417,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 418,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 419,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 420,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 421,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 422,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 423,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 424,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 425,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 426,
+        "fields": {
+            "theater": 9,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 427,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 428,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 429,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 430,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 431,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 432,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 433,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 434,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 435,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 436,
+        "fields": {
+            "theater": 9,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 437,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 438,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 439,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 440,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 441,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 442,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 443,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 444,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 445,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 446,
+        "fields": {
+            "theater": 9,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 447,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 448,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 449,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 450,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 451,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 452,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 453,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 454,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 455,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 456,
+        "fields": {
+            "theater": 9,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 457,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 458,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 459,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 460,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 461,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 462,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 463,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 464,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 465,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 466,
+        "fields": {
+            "theater": 10,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 467,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 468,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 469,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 470,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 471,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 472,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 473,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 474,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 475,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 476,
+        "fields": {
+            "theater": 10,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 477,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 478,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 479,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 480,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 481,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 482,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 483,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 484,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 485,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 486,
+        "fields": {
+            "theater": 10,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 487,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 488,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 489,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 490,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 491,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 492,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 493,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 494,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 495,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 496,
+        "fields": {
+            "theater": 10,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 497,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 498,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 499,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 500,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 501,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 502,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 503,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 504,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 505,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 506,
+        "fields": {
+            "theater": 10,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 507,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 508,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 509,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 510,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 511,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 512,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 513,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 514,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 515,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 516,
+        "fields": {
+            "theater": 11,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 517,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 518,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 519,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 520,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 521,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 522,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 523,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 524,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 525,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 526,
+        "fields": {
+            "theater": 11,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 527,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 528,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 529,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 530,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 531,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 532,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 533,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 534,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 535,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 536,
+        "fields": {
+            "theater": 11,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 537,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 538,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 539,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 540,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 541,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 542,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 543,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 544,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 545,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 546,
+        "fields": {
+            "theater": 11,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 547,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 548,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 549,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 550,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 551,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 552,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 553,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 554,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 555,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 556,
+        "fields": {
+            "theater": 11,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 557,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 558,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 559,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 560,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 561,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 562,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 563,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 564,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 565,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 566,
+        "fields": {
+            "theater": 12,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 567,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 568,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 569,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 570,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 571,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 572,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 573,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 574,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 575,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 576,
+        "fields": {
+            "theater": 12,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 577,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 578,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 579,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 580,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 581,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 582,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 583,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 584,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 585,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 586,
+        "fields": {
+            "theater": 12,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 587,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 588,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 589,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 590,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 591,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 592,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 593,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 594,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 595,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 596,
+        "fields": {
+            "theater": 12,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 597,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 598,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 599,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 600,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 601,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 602,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 603,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 604,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 605,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 606,
+        "fields": {
+            "theater": 12,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 607,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 608,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 609,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 610,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 611,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 612,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 613,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 614,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 615,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 616,
+        "fields": {
+            "theater": 13,
+            "seat_number": "A10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 617,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 618,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 619,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 620,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 621,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 622,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 623,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 624,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 625,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 626,
+        "fields": {
+            "theater": 13,
+            "seat_number": "B10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 627,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 628,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 629,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 630,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 631,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 632,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 633,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 634,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 635,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 636,
+        "fields": {
+            "theater": 13,
+            "seat_number": "C10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 637,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 638,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 639,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 640,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 641,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 642,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 643,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 644,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 645,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 646,
+        "fields": {
+            "theater": 13,
+            "seat_number": "D10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 647,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E1",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 648,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E2",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 649,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E3",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 650,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E4",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 651,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E5",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 652,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E6",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 653,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E7",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 654,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E8",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 655,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E9",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.seat",
+        "pk": 656,
+        "fields": {
+            "theater": 13,
+            "seat_number": "E10",
+            "is_booked": false,
+            "locked_by": null,
+            "locked_at": null
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "seat": 1,
+            "movie": 1,
+            "theater": 1,
+            "payment": null,
+            "booked_at": "2024-10-28T18:35:36.619Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 2,
+        "fields": {
+            "user": 1,
+            "seat": 2,
+            "movie": 1,
+            "theater": 1,
+            "payment": null,
+            "booked_at": "2024-10-28T18:41:08.168Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 3,
+        "fields": {
+            "user": 1,
+            "seat": 3,
+            "movie": 2,
+            "theater": 2,
+            "payment": null,
+            "booked_at": "2024-10-30T17:57:13.979Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 4,
+        "fields": {
+            "user": 1,
+            "seat": 5,
+            "movie": 3,
+            "theater": 3,
+            "payment": null,
+            "booked_at": "2024-10-30T17:57:34.075Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 5,
+        "fields": {
+            "user": 1,
+            "seat": 6,
+            "movie": 3,
+            "theater": 3,
+            "payment": null,
+            "booked_at": "2024-10-30T17:57:34.094Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 6,
+        "fields": {
+            "user": 2,
+            "seat": 4,
+            "movie": 1,
+            "theater": 1,
+            "payment": null,
+            "booked_at": "2026-05-16T04:02:02.154Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 7,
+        "fields": {
+            "user": 4,
+            "seat": 95,
+            "movie": 2,
+            "theater": 2,
+            "payment": 1,
+            "booked_at": "2026-06-26T04:08:48.417Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 8,
+        "fields": {
+            "user": 4,
+            "seat": 96,
+            "movie": 2,
+            "theater": 2,
+            "payment": 1,
+            "booked_at": "2026-06-26T04:08:48.419Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 9,
+        "fields": {
+            "user": 4,
+            "seat": 97,
+            "movie": 2,
+            "theater": 2,
+            "payment": 1,
+            "booked_at": "2026-06-26T04:08:48.419Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 10,
+        "fields": {
+            "user": 4,
+            "seat": 83,
+            "movie": 2,
+            "theater": 2,
+            "payment": 2,
+            "booked_at": "2026-06-26T04:10:10.158Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 11,
+        "fields": {
+            "user": 4,
+            "seat": 84,
+            "movie": 2,
+            "theater": 2,
+            "payment": 2,
+            "booked_at": "2026-06-26T04:10:10.159Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 12,
+        "fields": {
+            "user": 4,
+            "seat": 29,
+            "movie": 1,
+            "theater": 1,
+            "payment": 3,
+            "booked_at": "2026-06-26T04:23:15.796Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 14,
+        "fields": {
+            "user": 4,
+            "seat": 98,
+            "movie": 2,
+            "theater": 2,
+            "payment": 4,
+            "booked_at": "2026-06-26T04:24:45.697Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 15,
+        "fields": {
+            "user": 4,
+            "seat": 99,
+            "movie": 2,
+            "theater": 2,
+            "payment": 4,
+            "booked_at": "2026-06-26T04:24:45.697Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 16,
+        "fields": {
+            "user": 4,
+            "seat": 11,
+            "movie": 1,
+            "theater": 1,
+            "payment": 5,
+            "booked_at": "2026-06-30T03:49:38.430Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 17,
+        "fields": {
+            "user": 4,
+            "seat": 12,
+            "movie": 1,
+            "theater": 1,
+            "payment": 5,
+            "booked_at": "2026-06-30T03:49:38.433Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 18,
+        "fields": {
+            "user": 4,
+            "seat": 48,
+            "movie": 1,
+            "theater": 1,
+            "payment": 6,
+            "booked_at": "2026-06-30T03:54:11.629Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 19,
+        "fields": {
+            "user": 4,
+            "seat": 49,
+            "movie": 1,
+            "theater": 1,
+            "payment": 6,
+            "booked_at": "2026-06-30T03:54:11.629Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 22,
+        "fields": {
+            "user": 4,
+            "seat": 30,
+            "movie": 1,
+            "theater": 1,
+            "payment": 8,
+            "booked_at": "2026-06-30T04:00:23.015Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 23,
+        "fields": {
+            "user": 4,
+            "seat": 31,
+            "movie": 1,
+            "theater": 1,
+            "payment": 8,
+            "booked_at": "2026-06-30T04:00:23.015Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 24,
+        "fields": {
+            "user": 5,
+            "seat": 27,
+            "movie": 1,
+            "theater": 1,
+            "payment": 9,
+            "booked_at": "2026-07-01T04:53:10.866Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 25,
+        "fields": {
+            "user": 5,
+            "seat": 28,
+            "movie": 1,
+            "theater": 1,
+            "payment": 9,
+            "booked_at": "2026-07-01T04:53:10.867Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 26,
+        "fields": {
+            "user": 5,
+            "seat": 25,
+            "movie": 1,
+            "theater": 1,
+            "payment": 10,
+            "booked_at": "2026-07-01T06:10:30.898Z"
+        }
+    },
+    {
+        "model": "movies.booking",
+        "pk": 27,
+        "fields": {
+            "user": 5,
+            "seat": 26,
+            "movie": 1,
+            "theater": 1,
+            "payment": 10,
+            "booked_at": "2026-07-01T06:10:30.899Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 1,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782446928",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "450.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-26T04:08:48.414Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 2,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782447010",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-26T04:10:10.157Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 3,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782447795",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-26T04:23:15.792Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782447885",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-26T04:24:45.692Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 5,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782791378",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-30T03:49:38.427Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 6,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782791651",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-30T03:54:11.624Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 7,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782791892",
+            "razorpay_payment_id": null,
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Pending",
+            "idempotency_key": null,
+            "created_at": "2026-06-30T03:58:12.289Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 8,
+        "fields": {
+            "user": 4,
+            "razorpay_order_id": "mock_order_1782792023",
+            "razorpay_payment_id": "mock_payment_300",
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Success",
+            "idempotency_key": null,
+            "created_at": "2026-06-30T04:00:23.012Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 9,
+        "fields": {
+            "user": 5,
+            "razorpay_order_id": "mock_order_1782881590",
+            "razorpay_payment_id": "mock_payment_300",
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Success",
+            "idempotency_key": null,
+            "created_at": "2026-07-01T04:53:10.861Z"
+        }
+    },
+    {
+        "model": "movies.payment",
+        "pk": 10,
+        "fields": {
+            "user": 5,
+            "razorpay_order_id": "mock_order_1782886230",
+            "razorpay_payment_id": "mock_payment_300",
+            "razorpay_signature": null,
+            "amount": "300.00",
+            "status": "Success",
+            "idempotency_key": null,
+            "created_at": "2026-07-01T06:10:30.890Z"
+        }
+    },
+    {
+        "model": "movies.emailqueue",
+        "pk": 1,
+        "fields": {
+            "recipient": "vamshi@gmail.com",
+            "subject": "Ticket Confirmation - BookMyShow",
+            "html_message": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }\n        .container { background-color: #ffffff; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; }\n        h1 { color: #d32f2f; }\n        .details { margin: 20px 0; border-top: 1px solid #ddd; padding-top: 20px; }\n        .footer { margin-top: 30px; font-size: 12px; color: #777; text-align: center; }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <h1>Booking Confirmed!</h1>\n        <p>Hi vamshi,</p>\n        <p>Your ticket has been successfully booked.</p>\n        \n        <div class=\"details\">\n            <p><strong>Movie:</strong> avengers</p>\n            <p><strong>Theater:</strong> rdj</p>\n            <p><strong>Show Time:</strong> Oct. 31, 2024, 9:09 p.m.</p>\n            <p><strong>Seat Number(s):</strong> C1, C2</p>\n            <p><strong>Payment ID:</strong> mock_payment_300</p>\n        </div>\n        \n        <p>Please show this email at the theater entrance.</p>\n        <p>Enjoy the movie!</p>\n        \n        <div class=\"footer\">\n            <p>&copy; 2026 BookMyShow Clone</p>\n        </div>\n    </div>\n</body>\n</html>\n",
+            "status": "Failed",
+            "retries": 3,
+            "created_at": "2026-07-01T04:53:12.569Z",
+            "updated_at": "2026-07-01T04:55:54.295Z"
+        }
+    },
+    {
+        "model": "movies.emailqueue",
+        "pk": 2,
+        "fields": {
+            "recipient": "vamshi@gmail.com",
+            "subject": "Ticket Confirmation - BookMyShow",
+            "html_message": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }\n        .container { background-color: #ffffff; padding: 30px; border-radius: 8px; max-width: 600px; margin: auto; }\n        h1 { color: #d32f2f; }\n        .details { margin: 20px 0; border-top: 1px solid #ddd; padding-top: 20px; }\n        .footer { margin-top: 30px; font-size: 12px; color: #777; text-align: center; }\n    </style>\n</head>\n<body>\n    <div class=\"container\">\n        <h1>Booking Confirmed!</h1>\n        <p>Hi vamshi,</p>\n        <p>Your ticket has been successfully booked.</p>\n        \n        <div class=\"details\">\n            <p><strong>Movie:</strong> avengers</p>\n            <p><strong>Theater:</strong> rdj</p>\n            <p><strong>Show Time:</strong> Oct. 31, 2024, 9:09 p.m.</p>\n            <p><strong>Seat Number(s):</strong> B9, B10</p>\n            <p><strong>Payment ID:</strong> mock_payment_300</p>\n        </div>\n        \n        <p>Please show this email at the theater entrance.</p>\n        <p>Enjoy the movie!</p>\n        \n        <div class=\"footer\">\n            <p>&copy; 2026 BookMyShow Clone</p>\n        </div>\n    </div>\n</body>\n</html>\n",
+            "status": "Failed",
+            "retries": 3,
+            "created_at": "2026-07-01T06:10:32.637Z",
+            "updated_at": "2026-07-01T06:30:41.846Z"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$870000$RR17X7FYT2EpeL3jSNIGcA$d87kWrjRol95baOLLtTxjRcodCs/OoJeCDKoYvKWz2Q=",
+            "last_login": "2024-10-29T19:29:37.827Z",
+            "is_superuser": true,
+            "username": "girish",
+            "first_name": "",
+            "last_name": "",
+            "email": "girishmaharana42@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-10-23T21:20:20.689Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$sIIV1EJiIvY0T86wsUjxad$w5dF2ZKZ4mEPExZOHtUC7i71XmOkM5Go28BmWNlI8MQ=",
+            "last_login": "2026-05-16T03:59:25.639Z",
+            "is_superuser": false,
+            "username": "swaroop",
+            "first_name": "",
+            "last_name": "",
+            "email": "swamyswaroop600@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-05-16T03:59:24.968Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$G2IxtNMieAMjt1w23xwTRW$SIrmIWtXAudLBqPTNPbYYgWIUO173VRCQYzh7pHWGeM=",
+            "last_login": "2026-06-26T04:26:15.499Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "admin@example.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-05-16T04:06:28.775Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$s4zhP7P2XkkFe9VhYpm44W$rEbj2UCEwJsApVlbU6QjsN4xVlbaxSHNPnAp3NiFq3o=",
+            "last_login": "2026-06-30T03:49:04.294Z",
+            "is_superuser": false,
+            "username": "swamy",
+            "first_name": "",
+            "last_name": "",
+            "email": "swamyswaroop600@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-06-26T03:41:28.642Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$Pc4j6Bdn994OHlg8libPUR$GM+4/7szMlHk6WLK6ejcFqIHRQknzwwH7PddBcaH4TE=",
+            "last_login": "2026-07-01T04:52:41.074Z",
+            "is_superuser": true,
+            "username": "vamshi",
+            "first_name": "",
+            "last_name": "",
+            "email": "vamshi@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2026-07-01T04:46:45.818Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$GQVQCKTm7OFchyRK0oqQRf$gb0IcCkPfX21Fj/2Djpr1P4nARaTbH3G4ks1YvgHMyE=",
+            "last_login": "2026-07-01T06:35:05.404Z",
+            "is_superuser": false,
+            "username": "mahi",
+            "first_name": "",
+            "last_name": "",
+            "email": "24B11DS007@adityauniversity.in",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-01T06:35:04.945Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$8GgT4H19TJnjaZeBZO8Kkq$4JTt5Q4nli3K5DQpn3mIGXsbJApPyoo0UNFopBjW0zM=",
+            "last_login": "2026-07-01T07:04:11.783Z",
+            "is_superuser": false,
+            "username": "vishnu",
+            "first_name": "",
+            "last_name": "",
+            "email": "swamyswaroop600@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2026-07-01T07:04:11.349Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
