@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 from movies.models import Movie , Booking
 
 def home(request):
-    movies= Movie.objects.all().order_by('-id')
+    movies= Movie.objects.all()
     return render(request,'home.html',{'movies':movies})
 def register(request):
     if request.method == 'POST':
