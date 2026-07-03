@@ -118,7 +118,8 @@ class Payment(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, db_index=True)
 
     def __str__(self):
-        return f'{self.booking.user.username} - {self.razorpay_order_id} - {self.status}'
+        username = self.user.username if self.user else 'Unknown User'
+        return f'{username} - {self.razorpay_order_id} - {self.status}'
 
 class EmailQueue(models.Model):
     STATUS_CHOICES = (
