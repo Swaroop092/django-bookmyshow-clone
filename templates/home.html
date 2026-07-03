@@ -121,251 +121,39 @@
     </div>
     {% endif %}
   
-    <div class="section-title">Recommended Movies</div>
+    <div class="section-title">Latest Movies</div>
     <div class="row">
-        {% if movies %}
-      {% for movie in movies|slice:":4" %}
-      <div class="col-md-3 col-sm-6">
+      {% if movies %}
+      {% for movie in movies %}
+      <div class="col-md-3 col-sm-6 mb-4">
         <!-- Wrap the card in an anchor to make the entire card clickable -->
         <a href="{% url 'theater_list' movie.id %}" class="text-decoration-none">
           <div class="card h-100">
+            {% if movie.image %}
             <img
               src="{{ movie.image.url }}"
               class="card-img-top"
               alt="{{ movie.name }}"
               height="300"
             />
+            {% endif %}
             <div class="card-body d-flex flex-column justify-content-between">
-              <h5 class="card-title text-center">{{ movie.name }}</h5>
-              <p class="card-text text-center">{{ movie.description }}</p>
-              <!-- Replace with the appropriate movie description field -->
+              <h5 class="card-title text-center text-dark">{{ movie.name }}</h5>
+              <p class="card-text text-center text-dark">{{ movie.description|truncatechars:100 }}</p>
+              <p class="card-text text-center"><small class="text-muted">Rating: {{ movie.rating|default:"N/A" }}/10</small></p>
             </div>
           </div>
         </a>
       </div>
       {% endfor %}
+      {% else %}
+      <div class="col-12">
+        <p>No movies available at the moment.</p>
+      </div>
       {% endif %}
     </div>
   
-    <div class="section-title">The Best of Live Events</div>
-    <div class="row">
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/wQXDIlqv4XoxGtNEO9XkSKBZYe9IuDePUWEcd0WwqcNzY5nTA.jpg"
-            class="card-img-top"
-            alt="Event 1"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 1</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/t52p8goZiO6QDBfid8wRyReanID18f5AxbszVhfPgESGklfcC.jpg"
-            class="card-img-top"
-            alt="Event 2"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 2</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/lAqCOht0TCaeSSLzw2ZGlPmDwvIEI3RtqajPoTYQN0ZOs8zJA.jpg"
-            class="card-img-top"
-            alt="Event 3"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 3</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/EyIkuIxpLaLyHBDEuu5hezeydhw0mOSjKWX71bUiuTBiY5nTA.jpg"
-            class="card-img-top"
-            alt="Event 4"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 4</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/3QTKm2zD4e1OR6tqfvQrePQ9gJF0K8ecA4loyO4cJShYilfcC.jpg"
-            class="card-img-top"
-            alt="Event 5"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 5</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/g1fZzG6zyC1oe0HCfeQyRcjQ76fODp2HfaewYUqYpex1ZY5nTA.jpg"
-            class="card-img-top"
-            alt="Event 6"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Event 6</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="section-title">Premiere</div>
-    <div class="row">
-      <div class="col-md-3 col-sm-6">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/FJ64xM1AcD6FHJgA4oa0cGJSW3VudRGcPJEJxZG7eUNjs8zJA.jpg"
-            class="card-img-top"
-            alt="Premiere 1"
-            height="300"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Premiere 1</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/2u07aGlpRdZ2P57Q7MmUcimgjPcxfzjp0iwmTHsAFxGYs8zJA.jpg"
-            class="card-img-top"
-            alt="Premiere 2"
-            height="300"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Premiere 2</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/Eej0GoGFir1bLKOhfwpnUtyhbKe9I1OJUvnBVe1IObpPilfcC.jpg"
-            class="card-img-top"
-            alt="Premiere 3"
-            height="300"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Premiere 3</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/HKg2EfFn2vXCFShRqFsKrlmxZk7Oy6jr4fqQ4utln0eiyyPnA.jpg"
-            class="card-img-top"
-            alt="Premiere 4"
-            height="300"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Premiere 4</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <div class="section-title">Your Music Studio</div>
-    <div class="row">
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/Zxtj3kZfruT2C6wMYczKgyM03Ze2ymna5Pb3JCYppPtDZ5nTA.jpg"
-            class="card-img-top"
-            alt="Music 1"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 1</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/QLgGQKkllUJYJx57RJFjsciWnbG6MOb86lxqu7ijGDpLWezJA.jpg"
-            class="card-img-top"
-            alt="Music 2"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 2</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/xhrRnZeebRlinUxh914TpWK6sz42j8Wb2yHbK7DVTHP5Y5nTA.jpg"
-            class="card-img-top"
-            alt="Music 3"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 3</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/Bcmw5fvYWMW9UC4Y27iH8pB9vgFcIcN1Wx3jeHy7nvM8Y5nTA.jpg"
-            class="card-img-top"
-            alt="Music 4"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 4</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/uhbJueHHYVSiACSIZtetP8XiaCue0OmBZ24Cglkz4XjbxyPnA.jpg"
-            class="card-img-top"
-            alt="Music 5"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 5</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-2 col-sm-4">
-        <div class="card">
-          <img
-            src="https://storage.googleapis.com/a1aa/image/1nzFNOrM8ErwFtx8e2JxDvB5fCje3g286SyfRnBR5JB2jlfcC.jpg"
-            class="card-img-top"
-            alt="Music 6"
-            height="200"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Music 6</h5>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -381,11 +169,6 @@
           $(this).removeClass("shadow-lg");
         }
       );
-      
-      // Make placeholder cards clickable
-      $(".section-title:contains('Live Events'), .section-title:contains('Premiere'), .section-title:contains('Your Music Studio')").next('.row').find('.card').click(function() {
-          window.location.href = "{% url 'movie_list' %}";
-      });
     });
   </script>
 
